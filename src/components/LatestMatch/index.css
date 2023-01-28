@@ -1,0 +1,150 @@
+.latestMatchesContainerContainer {
+  width: 100%;
+}
+
+.latestMatchesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 15px;
+  background-color: #0f172a;
+}
+
+.latestMatchesContainerFirst {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+
+.latestMatchesContainerFirstSub {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+}
+
+.latestMatchesContainerFirstHeading {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.latestMatchesContainerFirstHeadingDate {
+  font-size: 13px;
+}
+
+.latestMatchesContainerFirstHeadingVenue {
+  font-size: 10px;
+}
+
+.competingTeamLogoImage {
+  height: 70px;
+  width: 60px;
+  align-self: center;
+}
+
+.line {
+  color: #1e293b;
+  width: 100%;
+  border-color: #475569;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.latestMatchesContainerSecond {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+
+.latestMatchesContainerSecondHeading {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.latestMatchesContainerSecondHeadingSub {
+  font-size: 10px;
+}
+
+.latestMatchesContainerL {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .latestMatchesContainer {
+    display: none;
+  }
+
+  .latestMatchesContainerL {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 15px;
+    background-color: #0f172a;
+  }
+
+  .latestMatchesContainerFirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 33%;
+    padding: 20px;
+  }
+
+  .latestMatchesContainerFirstHeading {
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  .latestMatchesContainerFirstHeadingDate {
+    font-size: 18px;
+  }
+
+  .latestMatchesContainerFirstHeadingVenue {
+    font-size: 15px;
+  }
+
+  .competingTeamLogoImage {
+    height: 150px;
+    width: 120px;
+    align-self: center;
+  }
+
+  .latestMatchesContainerSecond {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 33%;
+    padding: 20px;
+  }
+
+  .latestMatchesContainerSecondHeading {
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .latestMatchesContainerSecondHeadingSub {
+    font-size: 15px;
+  }
+
+  .imageContainerL {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
